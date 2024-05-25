@@ -8,4 +8,5 @@ vim.opt.expandtab = false
 vim.opt.relativenumber = true
 vim.opt.number = true
 
-
+vim.api.nvim_set_keymap('n', '<C-o>', ':e#<CR>', {noremap = true, silent = true})
+vim.api.nvim_set_keymap('n', '<C-r>', ':!yarn script<CR>', {noremap = true, silent = true})
