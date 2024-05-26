@@ -3,8 +3,8 @@
 echo "Installing configs ..."
 
 # removing old config files
-rm -r ~/.config/nvim
-rm -r ~/.config/tmux
+rm -r -f ~/.config/nvim
+rm -r -f ~/.config/tmux
 rm ~/.bashrc
 rm ~/.bash_profile
 
