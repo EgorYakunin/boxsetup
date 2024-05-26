@@ -1,10 +1,15 @@
 # .bashrc
 
+# source global bashrc
+if [ -f /etc/bashrc ]; then
+    . /etc/bashrc
+fi
+
 alias ls="ls --color=auto" 
 alias la="ls -lha"
 color_prompt=yes
 
-# Exports
+# exports
 . "$HOME/.cargo/env"
 
 export NVM_DIR="$HOME/.nvm"
