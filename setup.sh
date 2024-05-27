@@ -14,4 +14,6 @@ cp .bash_profile ~/.bash_profile
 cp -r nvim ~/.config/
 cp -r tmux ~/.config/
 
+source ~/.bashrc
+
 echo "Done :D"
