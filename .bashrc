@@ -9,6 +9,8 @@ alias ls="ls --color=auto"
 alias la="ls -lha"
 color_prompt=yes
 
+PS1='${debian_chroot:+($debian_chroot)}\[\033[01;37m\]\u\[\033[00;31m\]@\[\033[01;31m\]\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
+
 # exports
 . "$HOME/.cargo/env"
 
