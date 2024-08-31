@@ -17,6 +17,7 @@ require("lazy").setup({
 	{ "rebelot/kanagawa.nvim" },
 	{ "nvim-treesitter/nvim-treesitter" },
 	{ "nvim-tree/nvim-web-devicons" },
+	{ "rose-pine/neovim", name = "rose-pine" },
 	{ "stevearc/oil.nvim" },
     { "nvim-lua/plenary.nvim" },
 	{ "nvim-telescope/telescope.nvim" },

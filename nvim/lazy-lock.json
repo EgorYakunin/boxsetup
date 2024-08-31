@@ -5,6 +5,7 @@
   "nvim-web-devicons": { "branch": "master", "commit": "b77921fdc44833c994fdb389d658ccbce5490c16" },
   "oil.nvim": { "branch": "master", "commit": "15e071f203f4d0b66058ff89a2ef11a533250764" },
   "plenary.nvim": { "branch": "master", "commit": "a3e3bc82a3f95c5ed0d7201546d5d2c19b20d683" },
+  "rose-pine": { "branch": "main", "commit": "1e45cea06db866143930a6df96fc66bf715c866c" },
   "telescope.nvim": { "branch": "master", "commit": "dfa230be84a044e7f546a6c2b0a403c739732b86" },
   "vim-tmux-navigator": { "branch": "master", "commit": "5b3c701686fb4e6629c100ed32e827edf8dad01e" }
 }
